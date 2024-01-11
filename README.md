@@ -45,7 +45,7 @@ Enable the bundle in the config if flex it did´nt do it for you:
 
 return [
     // ...
-    Sasedev\MpdfBundle\SasedevMpdfBundle::class => ['all' => true],
+    xtezza\MpdfBundle\SasedevMpdfBundle::class => ['all' => true],
     // ...
 ];
 ```
@@ -56,7 +56,7 @@ You can use the factory in your controllers just like this:
 ```php
 <?php
 
-use Sasedev\MpdfBundle\Factory\MpdfFactory;
+use xtezza\MpdfBundle\Factory\MpdfFactory;
 
 // ...
 public function pdf($id, Request $request, MpdfFactory $MpdfFactory) {
