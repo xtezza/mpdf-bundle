@@ -15,7 +15,7 @@ If you choose to use it, adjust your `composer.json`
 ],
 (...)
 "require" : {
-	"sasedev/mpdf-bundle": "dev-master",
+	"xtezza/mpdf-bundle": "dev-master",
 	(...)
 }
 (...)
